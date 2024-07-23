@@ -358,6 +358,12 @@ html {
     perspective: 100rem;
 }
 
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .form-img {
     width: 55rem;
     background-color: rgba(50, 231, 255, 0.8);
